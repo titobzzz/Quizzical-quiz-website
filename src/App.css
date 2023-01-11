@@ -1,0 +1,100 @@
+
+body{
+  position: absolute;
+width: 550px;
+height: 550px;
+left: 200px;
+top: 50px;
+background: #F5F7FB;
+
+}
+  .button{
+  position: absolute;
+  font:'inter';
+width: 193px;
+height: 52px;
+left: 179px;
+top: 314px;
+background: #4D5B9E;
+border:0px white  solid;
+border-radius: 15px;
+color:white;
+}
+h2{
+  position: absolute;
+width: 412px;
+height: 41px;
+left: 70px;
+top: 218px;
+font-family: 'karla';
+font-style: normal;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 37px;
+text-align: center;
+color: #293264;
+}
+p{  
+position: absolute;
+width: 318px;
+height: 19px;
+left: 117px;
+top: 266px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #293264;
+}
+h4{
+  color:#293264;
+  margin:0px;
+  font:'karla'
+}
+.option{
+  display:flex;
+  gap:10px;
+}
+h6{
+  border:1px #293264 solid;
+  padding:10px 15px;
+  border-radius:10px;
+  font:'inter';
+  font-size:12px;
+
+}
+button{
+  background: #293264;
+  border:transparent;
+  border-radius:10px;
+  color:white;
+  font:'karla';
+  font-size:15px;
+  padding:10px 25px;
+}
+button:active{
+  padding:10px 30px;
+}
+.resultContainer{
+  display:flex;
+  align-content:center;
+}
+.results{
+  color:white;
+  background: #293264;
+  padding:100px;
+ font-family:"poppins";
+ justify-items:center
+}
+.ReplayButton{
+  background:white;
+  color:#293264;
+  font-family:"poppins";
+}
+
+/* h6:active{
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+} */
